@@ -1,7 +1,5 @@
 @extends('layoutss.admin.master')
 
-saad
-
 @section('content')
 <div class="form-wrapper">
     <form action="{{ route('contacts.update', $contact) }}" method="POST">
